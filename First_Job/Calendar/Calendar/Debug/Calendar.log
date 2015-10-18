@@ -1,0 +1,34 @@
+﻿生成启动时间为 2015-10-11 22:28:05。
+     1>项目“D:\My Documents\Visual Studio 2010\Projects\Calendar\Calendar\Calendar.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Calendar.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\Calendar.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Calendar.cpp
+         Calendar.cpp
+     1>d:\my documents\visual studio 2010\projects\calendar\calendar\calendar.cpp(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>d:\my documents\visual studio 2010\projects\calendar\calendar\calendar.cpp(27): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Calendar.exe.embed.manifest.res" Debug\Calendar_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\My Documents\Visual Studio 2010\Projects\Calendar\Debug\Calendar.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Calendar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\My Documents\Visual Studio 2010\Projects\Calendar\Debug\Calendar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\My Documents\Visual Studio 2010\Projects\Calendar\Debug\Calendar.lib" /MACHINE:X86 Debug\Calendar.exe.embed.manifest.res
+         Debug\Calendar.obj
+       Manifest:
+         正在删除文件“Debug\Calendar.exe.embed.manifest”。
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Calendar.exe.embed.manifest" /manifest Debug\Calendar.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Calendar.exe.embed.manifest.res" Debug\Calendar_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\My Documents\Visual Studio 2010\Projects\Calendar\Debug\Calendar.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Calendar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\My Documents\Visual Studio 2010\Projects\Calendar\Debug\Calendar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\My Documents\Visual Studio 2010\Projects\Calendar\Debug\Calendar.lib" /MACHINE:X86 Debug\Calendar.exe.embed.manifest.res
+         Debug\Calendar.obj
+         Calendar.vcxproj -> D:\My Documents\Visual Studio 2010\Projects\Calendar\Debug\Calendar.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Calendar.unsuccessfulbuild”。
+         正在对“Debug\Calendar.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\My Documents\Visual Studio 2010\Projects\Calendar\Calendar\Calendar.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.40
